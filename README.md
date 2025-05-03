@@ -21,3 +21,6 @@ Store data in localStorage.
 Apply JavaScript to trigger animations.
 
 Happy Coding! 💻✨
+
+
+WEEK7 AND WEEK8 HAVE THE SAME ASSIGNMENT REPO SO I SENT THE SAME URL
