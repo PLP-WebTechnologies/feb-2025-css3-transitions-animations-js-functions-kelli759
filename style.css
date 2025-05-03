@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bae2e4;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: lower-roman ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #bbbcb3, #a0a19a);
+    padding: 2em;
+    text-align: center;
+}
+
+.features {
+    background-color: #f7f7f7;
+    padding: 2em;
+    text-align: center;
+}
+
+.features ul {
+    list-style: bullets;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features li {
+    margin: 10px;
+}
+
+.testimonials {
+    background-color: #d1dce3;
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+#dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: none;
+  }
+  
+  #dropdown-menu li {
+    margin-bottom: 10px;
+  }
+  
+  #dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #dropdown-menu li a:hover {
+    color: #666;
+  }
+
+/* Media Queries */
+
+/* Mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        flex-direction: row;
+    }
+    .hero {
+        width: 50%;
+    }
+    .features {
+        width: 50%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    main {
+        flex-direction: row;
+    }
+    .hero {
+        width: 30%;
+    }
+    .features {
+        width: 70%;
+    }
+}
+
+/*animation-image*/ 
+#animation-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    transition: transform 1s ease-in-out;
+}
+
+#animation-image.animate {
+    transform: scale(1.5);
+}
