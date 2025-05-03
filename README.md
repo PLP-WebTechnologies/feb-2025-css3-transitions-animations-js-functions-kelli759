@@ -1,8 +1,10 @@
+## WEEK7 AND WEEK8 HAVE THE SAME ASSIGNMENT REPO SO I SENT THE SAME URL
+
 # CSS3 Transitions, Animations, and Advanced JavaScript Functions
 
 ## Objectives
 
-Create smooth CSS transitions and animations.
+Create smooth CSS transitions and animations
 Use JavaScript functions for dynamic behavior.
 Implement local storage for data persistence.
 
@@ -23,4 +25,4 @@ Apply JavaScript to trigger animations.
 Happy Coding! 💻✨
 
 
-WEEK7 AND WEEK8 HAVE THE SAME ASSIGNMENT REPO SO I SENT THE SAME URL
+
